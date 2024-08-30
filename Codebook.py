@@ -5,7 +5,7 @@ import numpy as np
 from groq import Groq
 import re
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "api key"
 client = Groq(api_key=GROQ_API_KEY)
 
 def generate_response(df, question):
